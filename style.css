@@ -1,0 +1,191 @@
+/* Global Styles */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* Header */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/* Hero Section */
+#hero {
+  padding: 100px 0;
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  font-size: 18px;
+  padding: 15px 40px;
+}
+
+/* Features Section */
+#features {
+  padding: 100px 0;
+}
+
+#features h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.feature {
+  margin-bottom: 30px;
+}
+
+.feature-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 20px;
+}
+
+.feature-details h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature-details p {
+  font-size: 16px;
+}
+
+/* Download Section */
+#download-button-container {
+  display: none;
+}
+
+#download-button {
+  padding: 10px 20px;
+  margin: 5px 0 15px 0;
+  font-size: 16px;
+  width: 250px;
+}
+
+#download {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.download-icon img {
+  max-width: 120px;
+  margin-bottom: 10px;
+}
+
+.download-description {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 100px 0;
+}
+
+.contact-details {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  #hero h2 {
+    font-size: 28px;
+  }
+
+  #hero p {
+    font-size: 16px;
+  }
+
+  .cta-button {
+    font-size: 16px;
+  }
+
+  .feature-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .feature-details h3 {
+    font-size: 22px;
+  }
+
+  .feature-details p {
+    font-size: 14px;
+  }
+
+  .download-icon img {
+    max-width: 150px;
+  }
+
+  .download-description {
+    font-size: 16px;
+  }
+
+  .contact-details {
+    font-size: 16px;
+  }
+}
+/* Styling for About Us Section */
+#about-us {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#about-us .card {
+  border: none;
+  background-color: #f8f9fa; /* Background color for the card */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about-us h2.section-title {
+  color: #333;
+}
+
+#about-us .developer-info {
+  margin-bottom: 20px;
+}
+
+#about-us .developer-info strong {
+  color: #333;
+  font-weight: 600;
+}
+
+#about-us .developer-info em {
+  color: #666;
+}
+
+#about-us .developer-info i {
+  margin-right: 8px;
+  color: #666;
+}
+
+#about-us .developer-info a {
+  color: #007bff;
+}
+
+#about-us .developer-info a:hover {
+  text-decoration: none;
+}
+
